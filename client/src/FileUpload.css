@@ -1,0 +1,100 @@
+
+/* Header/Logo Title */
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #80aaff;
+    color: white;
+    font-size: 30px;
+  }
+
+  .header2{
+      margin-top: 30px;
+  }
+
+  .upload {
+    padding: 10px 25px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #80aaff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 30px;
+  }
+  
+  .upload:hover {background-color: #80aaff}
+  
+  .upload:active {
+    background-color: #80aaff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .first-op {
+      margin-top: 20px;
+  }
+
+  ::-webkit-file-upload-button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;  
+}
+
+.label1{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.inpt{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;
+    height: 70px;
+}
+
+.inline-block {
+    display: inline-block;
+    margin-top: 20px;
+ }
+
+
+
+ .download_file {
+   margin-top: 30px;
+  background-color:  #80aaff;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.download_file:hover {
+  background-color: RoyalBlue;
+}
+
+.download_file2 {
+  margin-top: 30px;
+  margin-bottom: 200px;
+ background-color:  #80aaff;
+ border: none;
+ color: white;
+ padding: 12px 30px;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.download_file2:hover {
+ background-color: RoyalBlue;
+}
